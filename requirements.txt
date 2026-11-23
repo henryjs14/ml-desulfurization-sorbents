@@ -1,0 +1,17 @@
+# Python 3.12 or newer.
+# Exact versions are listed so that the notebooks reproduce the reported results.
+
+# Core libraries used in the notebooks
+numpy==2.5.3
+pandas==3.0.5
+matplotlib==3.11.2
+scikit-learn==1.9.1
+xgboost==3.4.1
+
+# Numerical dependencies of scikit-learn, pinned because they can affect results
+scipy==1.18.1
+joblib==1.6.0
+threadpoolctl==3.7.0
+
+# To open and run the notebooks
+jupyterlab==4.6.6
